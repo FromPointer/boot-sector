@@ -1,6 +1,6 @@
 
 ## About bios-boot-sector directory
-  bios-boot-sector is 16bit real mode assemble code 
+  bios-boot-sector is 16bit real mode boot sector code 
 
 # Usage:
     nasm [filename] -f bin -o [dest_filename]
