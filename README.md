@@ -1,16 +1,24 @@
+#  This is source code from book: "how to make a simple os"
 
-## About bios-boot-sector directory
-  bios-boot-sector is 16bit real mode boot sector code 
+## Test Tools:
+   qemu
+   bochs
 
-# Usage:
+## Dirctory: bios-boot-sector
+  bios-boot-sector is 16bit real mode boot sector code
+
+## Dirctory: boot-sector-pm
+  boot-sector is boot sector code in 32bit protect mode
+
+#  Usage:
     nasm [filename] -f bin -o [dest_filename]
     Eg: name boot_helloworld.asm -f bin -o boot_helloworld.bin
 
 
-# BOCHS usage:
+#  BOCHS usage:
 
 
-# QEMU usage:
+#  QEMU usage:
     qemu-system-i386 [bin_filename]
     Eg: qemu-system-i386 boot_helloworld.bin
 
