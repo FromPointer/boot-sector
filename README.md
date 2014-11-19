@@ -12,7 +12,7 @@
 
 #  Usage:
     nasm [filename] -f bin -o [dest_filename]
-    Eg: name boot_helloworld.asm -f bin -o boot_helloworld.bin
+    Eg: nasm boot_helloworld.asm -f bin -o boot_helloworld.bin
 
 
 #  BOCHS usage:
